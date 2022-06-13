@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListCountryViewController" customModule="ArkCovid" customModuleProvider="target">
+            <connections>
+                <outlet property="countryCasesTableView" destination="FgV-TD-ORD" id="nFS-BX-xU7"/>
+                <outlet property="countryNameTextField" destination="Nfj-uN-Vcn" id="8xs-tp-Ujp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please type the name of country to search for. " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-uN-Vcn">
+                    <rect key="frame" x="20" y="64" width="374" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="fJm-bk-f3M"/>
+                    </constraints>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="yes"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FgV-TD-ORD">
+                    <rect key="frame" x="20" y="134" width="374" height="728"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Nfj-uN-Vcn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="3Me-69-Thj"/>
+                <constraint firstItem="FgV-TD-ORD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EFQ-t1-za3"/>
+                <constraint firstItem="FgV-TD-ORD" firstAttribute="trailing" secondItem="Nfj-uN-Vcn" secondAttribute="trailing" id="Jle-LH-Uti"/>
+                <constraint firstItem="FgV-TD-ORD" firstAttribute="top" secondItem="Nfj-uN-Vcn" secondAttribute="bottom" constant="20" id="Oji-Ut-jee"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nfj-uN-Vcn" secondAttribute="trailing" constant="20" id="d9N-fA-uHi"/>
+                <constraint firstItem="Nfj-uN-Vcn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="hU2-xK-lJg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="FgV-TD-ORD" secondAttribute="bottom" id="jsd-EY-q7v"/>
+                <constraint firstItem="FgV-TD-ORD" firstAttribute="leading" secondItem="Nfj-uN-Vcn" secondAttribute="leading" id="s0a-Ay-9z8"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="94"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

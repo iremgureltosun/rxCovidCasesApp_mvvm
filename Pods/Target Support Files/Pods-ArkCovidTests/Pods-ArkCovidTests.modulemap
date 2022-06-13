@@ -1,0 +1,6 @@
+framework module Pods_ArkCovidTests {
+  umbrella header "Pods-ArkCovidTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
