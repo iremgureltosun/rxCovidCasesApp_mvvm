@@ -1,4 +1,8 @@
 PODS:
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
   - lottie-ios (3.3.0)
   - Nimble (10.0.0)
   - Quick (5.0.1)
@@ -8,35 +12,45 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
+  - SwiftAlgorithms (1.0.0)
   - Swinject (2.8.1)
+  - TinyConstraints (4.0.2)
 
 DEPENDENCIES:
+  - Charts
   - lottie-ios (= 3.3.0)
   - Nimble
   - Quick
   - RxCocoa
   - RxSwift
   - Swinject
+  - TinyConstraints
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Charts
     - lottie-ios
     - Nimble
     - Quick
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SwiftAlgorithms
     - Swinject
+    - TinyConstraints
 
 SPEC CHECKSUMS:
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
   lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
-PODFILE CHECKSUM: ff723eb3e5a5e537414b0ee3e9d54bdc34b9a8dd
+PODFILE CHECKSUM: ff0b899b71521b7ee641b14d4f65d2bae3907e27
 
 COCOAPODS: 1.11.2

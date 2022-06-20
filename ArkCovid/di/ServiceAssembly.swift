@@ -16,8 +16,12 @@ class ServiceAssembly: Assembly {
         self.assembler = assembler
     }
     func assemble(container: Container) {
-        container.register(SearchServiceProtocol.self) { _ in
-            SearchService()
+        container.register(CovidSearchServiceProtocol.self) { _ in
+            CovidSearchService()
+        }.inObjectScope(.container)
+        
+        container.register(HistoricalSearchServiceProtocol.self) { _ in
+            HistoricalSearchService()
         }.inObjectScope(.container)
     }
 }

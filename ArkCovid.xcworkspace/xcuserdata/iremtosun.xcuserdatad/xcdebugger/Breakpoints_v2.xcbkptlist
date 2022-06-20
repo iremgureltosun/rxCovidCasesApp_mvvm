@@ -7,32 +7,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "56BB67CE-E4C3-44C5-8B3E-DE4C9A4E8B9C"
+            uuid = "6DB7BD41-929D-4C86-8145-E0FFB24E393F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArkCovid/scenes/countriesPage/ListCountryViewController.swift"
+            filePath = "ArkCovid/views/detailsView/CountryDetailsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "bindTableData()"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "statusChanged(text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DE2E1A4C-36F6-44C0-B58E-460CD2289CBA"
+            uuid = "5EC12F50-CD8D-4DBB-8A08-1E8BF13511FD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ArkCovid/scenes/countriesPage/ListCountryViewModel.swift"
+            filePath = "ArkCovid/views/detailsView/CountryDetailsViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "fetch()"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "setMapConstraints()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76970680-7EE3-4170-A1D1-4FFA6E1EC90C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArkCovid/views/detailsView/CountryDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "setMapConstraints()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

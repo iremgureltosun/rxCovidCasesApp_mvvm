@@ -12,10 +12,20 @@ import RxSwift
 import XCTest
 
 class ArkAPITests: XCTestCase {
+    func testEpochTime() {
+        let date = Date()
+        let ts = date.epochTime
+
+        let date2 = Date.createDate(from: ts)
+        print(date)
+        print(date2)
+        //XCTAssertTrue(date == date2, "Failed")
+    }
+
     func testEndpointReturnsDataForCountry() {
         let bag = DisposeBag()
         do {
-            let searchService = SearchService()
+            let searchService = CovidSearchService()
             let expectation = self.expectation(description: "No results in response data")
 
             try searchService.getAllCovidCases(of: Constants.Network.countriesToList).subscribe(

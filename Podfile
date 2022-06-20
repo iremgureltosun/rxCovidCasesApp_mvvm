@@ -14,7 +14,8 @@ target 'ArkCovid' do
    pod 'lottie-ios', '3.3.0'
    pod 'RxCocoa'
    pod 'RxSwift'
-   
+   pod 'Charts'
+   pod 'TinyConstraints'
 
   target 'ArkCovidTests' do
     inherit! :search_paths
